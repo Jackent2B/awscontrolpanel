@@ -83,13 +83,13 @@ This is an example of how to list things you need to use the software and how to
 Switch to the cloned repository using your terminal
 
 
-1. Run Node.js server 
+1. Run Node.js (Backend) server 
    ```
    npm start
    ```
 Now, Switch on to the client folder in the second window of terminal,<br/>
 
-2. Run React.js client 
+2. Run React.js (Frontend) client 
    ```
    npm start
    ```
