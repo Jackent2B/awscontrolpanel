@@ -2,7 +2,7 @@
 ![](https://github.com/Jackent2B/awscontrolpanel/blob/main/awscontrolpanel.png?raw=true)
 
 # awscontrolpanel
-customised aws control panel with better ui
+Customised AWS Control Panel with great UI Experience
 ## Docker Image Link
 
 Frontend: [Docker Image](https://hub.docker.com/repository/docker/jackent2binnovaccer/awscontrolpanel-reactjs)
