@@ -49,6 +49,29 @@ This is an example of how to list things you need to use the software and how to
    npm install
    ```
    
+
+### Services Added
+
+* EC2 Services:
+
+  * Create EC2 Instance (/ec2/createInstance)
+  * Show EC2 Instance List (/ec2/showInstances)
+  * Start EC2 Instance (/ec2/startInstance)
+  * Stop EC2 Instance (/ec2/stopInstance)
+  * Terminate EC2 Instance (/ec2/terminateInstance)
+
+* S3 Services: 
+  
+  * Create S3 Bucket (/s3/createBucket)
+  * Show S3 Buckets (/s3/showBuckets)
+  * Delete S3 Bucket (/s3/removeBucket)
+
+* IAM Services:
+
+  * Create IAM User (/iam/createUser)
+  * Show IAM Users  (/iam/showUsers)
+
+
 ### Running the application
 Switch to the cloned repository using your terminal
 
