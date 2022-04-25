@@ -2,7 +2,8 @@
 customised aws control panel with better ui
 ## Docker Image Link
 
-Project Link: [Docker Image](https://hub.docker.com/repository/docker/jackent2binnovaccer/awspanel)
+Frontend: [Docker Image](https://hub.docker.com/repository/docker/jackent2binnovaccer/awscontrolpanel-reactjs)
+Backend: [Docker Image](https://hub.docker.com/repository/docker/jackent2binnovaccer/awscontrolpanel-nodejs)
 
 ## Github Link
 
@@ -17,6 +18,8 @@ Following are the frameworks/libraries that you need to install in your local ma
 * [Node.js](https://nodejs.org/en/)
 * [AWS SDKs](https://aws.amazon.com/tools/)
 * [Express.js](https://expressjs.com/)
+* [React.js](https://reactjs.org/)
+
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -44,10 +47,14 @@ This is an example of how to list things you need to use the software and how to
    ```
    git clone https://github.com/Jackent2B/awscontrolpanel.git
    ```
-2. Install NPM packages
+2. Now, Switch to the Backend folder and Install NPM packages
    ```
    npm install
    ```
+3. Now, Switch to the Frontend folder and Install NPM packages
+   ```
+   npm install
+   ```      
    
 
 ### Services Added
@@ -75,8 +82,14 @@ This is an example of how to list things you need to use the software and how to
 ### Running the application
 Switch to the cloned repository using your terminal
 
+
 1. Run Node.js server 
    ```
    npm start
    ```
-<!-- Project Link -->
+Now, Switch on to the client folder in the second window of terminal,<br/>
+
+2. Run React.js client 
+   ```
+   npm start
+   ```
