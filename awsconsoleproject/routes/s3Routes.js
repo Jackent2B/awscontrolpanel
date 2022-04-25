@@ -16,7 +16,7 @@ router.post("/setBucket", async (req, res) => {
   //console.log(result);
 });
 
-router.delete("/removeBucket", async (req, res) => {
+router.post("/removeBucket", async (req, res) => {
   const s3Service = new S3Service();
   const result = await s3Service.removeS3Service(req.body);
   res.send(result);

@@ -6,12 +6,12 @@ const {
   CreateUserCommand,
 } = require("@aws-sdk/client-iam");
 
-// const maxcount = { MaxItems: 10 };
+const maxcount = { MaxItems: 10 };
 // const deleteparams = { UserName: "lashya" }; //USER_NAME
 // const createuser = { UserName: "USER_NAME" }; //USER_NAME
 
 class IAMService {
-  async getIAMUserService(maxcount) {
+  async getIAMUserService() {
     try {
       const data = await iamClient.send(new ListUsersCommand(maxcount));
       const users = data.Users || [];
@@ -32,9 +32,7 @@ class IAMService {
       return data;
     } catch (err) {
       try {
-        const results = await iamClient.send(
-          new CreateUserCommand(createparams)
-        );
+        const results = await iamClient.send(new CreateUserCommand(createuser));
         console.log("Success", results);
         return results;
       } catch (err) {

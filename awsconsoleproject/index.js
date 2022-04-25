@@ -3,6 +3,7 @@ const app = express();
 const cors = require("cors");
 
 app.use(cors());
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
@@ -15,6 +16,8 @@ app.get("/", (req, res) => {
   res.send("AWS console");
 });
 
-app.listen(3000, (req, res) => {
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, (req, res) => {
   console.log("Server is listening");
 });

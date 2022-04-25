@@ -5,7 +5,7 @@ const EC2Service = require("../services/ec2Service.js");
 router.get("/getInstances", async (req, res) => {
   const ec2Service = new EC2Service();
   const result = await ec2Service.getEC2Instance();
-  res.send(result.Reservations[0].Instances);
+  res.send(result);
   //console.log(result.Reservations[0].Instances);
 });
 

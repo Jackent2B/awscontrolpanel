@@ -15,6 +15,7 @@ const { ec2Client } = require("../libs/ec2Client");
 //   MinCount: 1,
 //   MaxCount: 1,
 // };
+
 class EC2Service {
   async setEC2Instance(instanceParams) {
     try {
@@ -24,6 +25,7 @@ class EC2Service {
       console.log(data.Instances[0].InstanceId);
       const instanceId = data.Instances[0].InstanceId;
       console.log("Created instance", instanceId);
+      const newinstance = "Created instance : " + instanceId;
       // Add tags to the instance
       const tagParams = {
         Resources: [instanceId],
@@ -37,6 +39,7 @@ class EC2Service {
       try {
         const data = await ec2Client.send(new CreateTagsCommand(tagParams));
         console.log("Instance tagged");
+        return data;
       } catch (err) {
         console.log("Error", err);
         return err;

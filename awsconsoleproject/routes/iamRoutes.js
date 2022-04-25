@@ -2,9 +2,9 @@ const express = require("express");
 const router = express.Router();
 const IAMService = require("../services/iamService.js");
 
-router.post("/getIAMusers", async (req, res) => {
+router.get("/getIAMusers", async (req, res) => {
   const iamService = new IAMService();
-  const result = await iamService.getIAMUserService(req.body);
+  const result = await iamService.getIAMUserService();
   res.send(result);
   //console.log(result);
 });
