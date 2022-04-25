@@ -21,6 +21,7 @@ class IAMService {
       return data;
     } catch (err) {
       console.log("Error", err);
+      return err;
     }
   }
 
@@ -38,6 +39,7 @@ class IAMService {
         return results;
       } catch (err) {
         console.log("Error", err);
+        return err;
       }
     }
   }

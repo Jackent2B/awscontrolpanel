@@ -39,9 +39,11 @@ class EC2Service {
         console.log("Instance tagged");
       } catch (err) {
         console.log("Error", err);
+        return err;
       }
     } catch (err) {
       console.log("Error", err);
+      return err;
     }
   }
 
@@ -52,6 +54,7 @@ class EC2Service {
       return data;
     } catch (err) {
       console.log("Error", err);
+      return err;
     }
   }
 
@@ -62,6 +65,7 @@ class EC2Service {
       return data;
     } catch (err) {
       console.log("Error2", err);
+      return err;
     }
   }
   async stopEC2Instance(instanceID) {
@@ -71,6 +75,7 @@ class EC2Service {
       return data;
     } catch (err) {
       console.log("Error", err);
+      return err;
     }
   }
   async terminateEC2Instance(instanceID) {
@@ -82,6 +87,7 @@ class EC2Service {
       return data;
     } catch (err) {
       console.log("Error", err);
+      return err;
     }
   }
 }

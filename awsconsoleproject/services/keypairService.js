@@ -11,6 +11,7 @@ class KeyPairService {
       return data;
     } catch (err) {
       console.log("Error", err);
+      return err;
     }
   }
 

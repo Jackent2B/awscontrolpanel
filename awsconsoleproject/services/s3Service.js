@@ -16,6 +16,7 @@ class S3Service {
       return data; // For unit tests.
     } catch (err) {
       console.log("Error", err);
+      return err;
     }
   }
 
@@ -26,6 +27,7 @@ class S3Service {
       return data; // For unit tests.
     } catch (err) {
       console.log("Error", err);
+      return err;
     }
   }
 
@@ -38,6 +40,7 @@ class S3Service {
       console.log("Success - bucket deleted");
     } catch (err) {
       console.log("Error", err);
+      return err;
     }
   }
 }
