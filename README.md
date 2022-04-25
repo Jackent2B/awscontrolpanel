@@ -54,22 +54,22 @@ This is an example of how to list things you need to use the software and how to
 
 * EC2 Services:
 
-  * Create EC2 Instance (/ec2/createInstance)
-  * Show EC2 Instance List (/ec2/showInstances)
+  * Create EC2 Instance (/ec2/setInstance)
+  * Show EC2 Instance List (/ec2/getInstances)
   * Start EC2 Instance (/ec2/startInstance)
   * Stop EC2 Instance (/ec2/stopInstance)
   * Terminate EC2 Instance (/ec2/terminateInstance)
 
 * S3 Services: 
   
-  * Create S3 Bucket (/s3/createBucket)
-  * Show S3 Buckets (/s3/showBuckets)
+  * Create S3 Bucket (/s3/setBucket)
+  * Show S3 Buckets (/s3/getBuckets)
   * Delete S3 Bucket (/s3/removeBucket)
 
 * IAM Services:
 
-  * Create IAM User (/iam/createUser)
-  * Show IAM Users  (/iam/showUsers)
+  * Create IAM User (/iam/setIAMUser)
+  * Show IAM Users  (/iam/getIAMUsers)
 
 
 ### Running the application
