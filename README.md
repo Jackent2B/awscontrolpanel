@@ -76,9 +76,9 @@ Now, Switch on to the client folder in the second window of terminal,<br/>
    npm start
    ```
 
-### Services Added
+### Services Added:
 
-* EC2 Services:
+## EC2 Services:
 
   * Create EC2 Instance (/ec2/setInstance)   
     ![](https://github.com/Jackent2B/awscontrolpanel/blob/main/createinstance.png?raw=true)
@@ -96,7 +96,7 @@ Now, Switch on to the client folder in the second window of terminal,<br/>
   ![](https://github.com/Jackent2B/awscontrolpanel/blob/main/terminateinstance.png?raw=true)
 
 
-* S3 Services: 
+## S3 Services: 
   
   * Create S3 Bucket (/s3/setBucket)
   ![](https://github.com/Jackent2B/awscontrolpanel/blob/main/createbucket.png?raw=true)
@@ -107,10 +107,12 @@ Now, Switch on to the client folder in the second window of terminal,<br/>
   * Delete S3 Bucket (/s3/removeBucket)
   ![](https://github.com/Jackent2B/awscontrolpanel/blob/main/deletebucket.png?raw=true)
   
-* IAM Services:
+## IAM Services:
 
   * Create IAM User (/iam/setIAMUser)
   ![](https://github.com/Jackent2B/awscontrolpanel/blob/main/createuser.png?raw=true)
   
   * Show IAM Users  (/iam/getIAMUsers)
   ![](https://github.com/Jackent2B/awscontrolpanel/blob/main/userlist.png?raw=true)
+  
+ ## Thank You!
