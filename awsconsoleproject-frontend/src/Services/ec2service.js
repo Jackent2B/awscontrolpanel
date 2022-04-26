@@ -1,5 +1,5 @@
 import axios from "axios";
-const USER_BASE_URL = "http://localhost:3000/ec2";
+const USER_BASE_URL = "http://localhost:5000/ec2";
 
 class EC2Service {
   getInstances() {

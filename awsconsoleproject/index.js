@@ -16,7 +16,7 @@ app.get("/", (req, res) => {
   res.send("AWS console");
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = 5000;
 
 app.listen(PORT, (req, res) => {
   console.log("Server is listening");
