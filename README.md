@@ -5,8 +5,10 @@
 Customised AWS Control Panel with great UI Experience
 ## Docker Image Link
 
-Frontend: [Docker Image](https://hub.docker.com/repository/docker/jackent2binnovaccer/awscontrolpanel-reactjs)
-Backend: [Docker Image](https://hub.docker.com/repository/docker/jackent2binnovaccer/awscontrolpanel-nodejs)
+EC2 Instance Hosted Link: [Host](http://54.82.2.5:3000/)
+
+Frontend: [Docker Image](https://hub.docker.com/repository/docker/jackent2binnovaccer/awscontrolpanelreact)
+Backend: [Docker Image](https://hub.docker.com/repository/docker/jackent2binnovaccer/awscontrolpanelnode)
 
 ## Github Link
 
