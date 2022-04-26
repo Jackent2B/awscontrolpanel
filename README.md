@@ -81,38 +81,38 @@ Now, Switch on to the client folder in the second window of terminal,<br/>
 ### EC2 Services:
 
   * Create EC2 Instance (/ec2/setInstance)   
-    ![](https://github.com/Jackent2B/awscontrolpanel/blob/main/createinstance.png?raw=true)
+    ![](https://github.com/Jackent2B/awscontrolpanel/blob/main/instancesImages/createinstance.png?raw=true)
   
   * Show EC2 Instance List (/ec2/getInstances)
-  ![](https://github.com/Jackent2B/awscontrolpanel/blob/main/instancelist.png?raw=true)
+  ![](https://github.com/Jackent2B/awscontrolpanel/blob/main/instancesImages/instancelist.png?raw=true)
 
   * Start EC2 Instance (/ec2/startInstance)
-  ![](https://github.com/Jackent2B/awscontrolpanel/blob/main/startinstance.png?raw=true)
+  ![](https://github.com/Jackent2B/awscontrolpanel/blob/main/instancesImages/startinstance.png?raw=true)
   
   * Stop EC2 Instance (/ec2/stopInstance) 
-  ![](https://github.com/Jackent2B/awscontrolpanel/blob/main/stopinstance.png?raw=true)
+  ![](https://github.com/Jackent2B/awscontrolpanel/blob/main/instancesImages/stopinstance.png?raw=true)
   
   * Terminate EC2 Instance (/ec2/terminateInstance)
-  ![](https://github.com/Jackent2B/awscontrolpanel/blob/main/terminateinstance.png?raw=true)
+  ![](https://github.com/Jackent2B/awscontrolpanel/blob/main/instancesImages/terminateinstance.png?raw=true)
 
 
 ### S3 Services: 
   
   * Create S3 Bucket (/s3/setBucket)
-  ![](https://github.com/Jackent2B/awscontrolpanel/blob/main/createbucket.png?raw=true)
+  ![](https://github.com/Jackent2B/awscontrolpanel/blob/main/bucketsImages/createbucket.png?raw=true)
   
   * Show S3 Buckets (/s3/getBuckets)
-  ![](https://github.com/Jackent2B/awscontrolpanel/blob/main/listbuckets.png?raw=true)
+  ![](https://github.com/Jackent2B/awscontrolpanel/blob/main/bucketsImages/listbuckets.png?raw=true)
   
   * Delete S3 Bucket (/s3/removeBucket)
-  ![](https://github.com/Jackent2B/awscontrolpanel/blob/main/deletebucket.png?raw=true)
+  ![](https://github.com/Jackent2B/awscontrolpanel/blob/main/bucketsImages/deletebucket.png?raw=true)
   
 ### IAM Services:
 
   * Create IAM User (/iam/setIAMUser)
-  ![](https://github.com/Jackent2B/awscontrolpanel/blob/main/createuser.png?raw=true)
+  ![](https://github.com/Jackent2B/awscontrolpanel/blob/main/iamuserImages/createuser.png?raw=true)
   
   * Show IAM Users  (/iam/getIAMUsers)
-  ![](https://github.com/Jackent2B/awscontrolpanel/blob/main/userlist.png?raw=true)
+  ![](https://github.com/Jackent2B/awscontrolpanel/blob/main/iamuserImages/userlist.png?raw=true)
   
 ## Thank You!
