@@ -1,22 +1,21 @@
+# AWSControlPanel
+Customised AWS Control Panel with great UI Experience
 
 ![](https://github.com/Jackent2B/awscontrolpanel/blob/main/awscontrolpanel.png?raw=true)
 
-# awscontrolpanel
-Customised AWS Control Panel with great UI Experience
-## Docker Image Link
+## EC2 Instance Link and Docker Image Link:
+EC2 Instance Hosted Link: [Link](http://54.82.2.5:3000/)
 
-EC2 Instance Hosted Link: [Host](http://54.82.2.5:3000/)
+Frontend Docker Image: [Link](https://hub.docker.com/repository/docker/jackent2binnovaccer/awscontrolpanelreact)
+Backend Docker Image : [Link](https://hub.docker.com/repository/docker/jackent2binnovaccer/awscontrolpanelnode)
 
-Frontend: [Docker Image](https://hub.docker.com/repository/docker/jackent2binnovaccer/awscontrolpanelreact)
-Backend: [Docker Image](https://hub.docker.com/repository/docker/jackent2binnovaccer/awscontrolpanelnode)
+## Source Code:
 
-## Github Link
-
-Project Link: [Code](https://github.com/Jackent2B/awscontrolpanel.git)
+Code: [Github Source Code](https://github.com/Jackent2B/awscontrolpanel.git)
 
 
 
-### Built With
+### Built With:
 
 Following are the frameworks/libraries that you need to install in your local machine to run the project: 
 
@@ -76,6 +75,7 @@ Now, Switch on to the client folder in the second window of terminal,<br/>
    npm start
    ```
 
+
 ## Services Added In the AWS Control Panel:
 
 ### EC2 Services:
@@ -115,4 +115,4 @@ Now, Switch on to the client folder in the second window of terminal,<br/>
   * Show IAM Users  (/iam/getIAMUsers)
   ![](https://github.com/Jackent2B/awscontrolpanel/blob/main/userlist.png?raw=true)
   
- ## Thank You!
+## Thank You!
