@@ -3,8 +3,7 @@ Customised AWS Control Panel with great UI Experience
 
 ![](https://github.com/Jackent2B/awscontrolpanel/blob/main/awscontrolpanel.png?raw=true)
 
-## EC2 Instance Link and Docker Image Link:
-EC2 Instance Hosted Link: [Link](http://54.82.2.5:3000/)
+## Docker Image Link:
 
 Frontend Docker Image: [Link](https://hub.docker.com/repository/docker/jackent2binnovaccer/awscontrolpanelreact)
 Backend Docker Image : [Link](https://hub.docker.com/repository/docker/jackent2binnovaccer/awscontrolpanelnode)
